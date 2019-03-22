@@ -1,0 +1,27 @@
+body {
+  padding-top: 5rem;
+  background: black;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+div#top-locations {
+  padding: 10px;
+  colour: white;
+}
+img#image-carousel {
+  max-width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+div#quick-links{
+  text-align: center;
+}
+h1{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
