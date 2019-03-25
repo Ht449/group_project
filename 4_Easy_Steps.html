@@ -12,7 +12,7 @@
     <!-- Specifies author of document -->
     <meta name="author" content="Esther, Charlotte, Hazel">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>4 Easy Steps</title>
 
     <!-- Bootstrap core here, I'm not sure what this actually is-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -25,7 +25,7 @@
   <body>
   <!-- Navbar Bootstap -->
 
-    <nav class="navbar navbar-toggler navbar-primary bg-light">
+    <nav class="navbar navbar-toggler navbar-primary fixed-top bg-light">
       <a href=index.html class="navbar-brand">Home</a>  <!-- Creates home button hyperlink -->
 
       <a href=coming_soon.html class="navbar-brand">About</a>  <!-- Creates  button hyperlink -->
@@ -45,33 +45,94 @@
 
     <h1> 4 Easy Steps to Getting Started </h1>
 
-
-    <div>
-      <h2> Step 1: Choose Your Sport </h2>
-      <h3> Skiing </h3>
-        Skiing involves two skis that are strapped with bindings. The skiers use the skies to navigate and propel themselves through snow.
+    <!-- Step 1 -->
+    <div class="row">
+      <div class="col-sm-7"> <!-- Column 1 (text) Starts -->
+        <h2> Step 1: Choose Your Sport </h2>
+        <h3> Skiing </h3>
+        <p> Skiing involves two skis that are strapped with bindings. The skiers use the skies to navigate and propel themselves through snow.</p>
+      </div>
+      <div class="col-sm-5"> <!-- Column 2 (image) Starts -->
         <img src="images/skiing.png">
-      <h2> Snowboarding </h2>
-      But snowboarders, who do not use a single board, use only their body to navigate and propel.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-7"> <!-- Column 1 (text) Starts -->
+        <h2> Snowboarding </h2>
+        <p>But snowboarders, who do not use a single board, use only their body to navigate and propel.</p>
+      </div>
+      <div class="col-sm-5"> <!-- Column 2 (image) Starts -->
         <img src="images/snowboarding.png">
+      </div>
     </div>
 
+    <br>
+
+    <!-- Step 2 -->
     <div>
       <h2> Step 2: Essential Equipment </h2>
-
+      <!-- Boostrap card deck -->
+      <div class="card-deck">
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="A ski helmet.">
+          <div class="card-body">
+            <h5 class="card-title">Helmet</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="Ski goggles.">
+          <div class="card-body">
+            <h5 class="card-title">Goggles</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="A pair of gloves.">
+          <div class="card-body">
+            <h5 class="card-title">Gloves</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="A warm jacket.">
+          <div class="card-body">
+            <h5 class="card-title">Jacket</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="Sallopets.">
+          <div class="card-body">
+            <h5 class="card-title">Sallopets</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/skiing.png" class="card-img-top" alt="A pair of boots and skis.">
+          <div class="card-body">
+            <h5 class="card-title">Boots and skis/snowboard</h5>
+            <p class="card-text">A small amount of information.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <br>
+
+    <!-- Step 3 -->
     <div>
       <h2> Step 3: Find a Location </h2>
 
     </div>
 
+    <br>
+
+    <!-- Step 4 -->
     <div>
       <h2> Step 4: Get Out and Get Invovled </h2>
 
     </div>
-
-
 
   </body>
 
