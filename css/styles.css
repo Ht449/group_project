@@ -48,4 +48,12 @@ div#keep-in-touch{
 
 h5{
   text-align: center;
+
+
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
 }
