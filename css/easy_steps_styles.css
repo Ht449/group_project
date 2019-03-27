@@ -1,37 +1,44 @@
 body {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: rgb(224,255,251);
+  margin: 80px;
 }
-
-/*
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
-*/
 
 .logo img {
   height: 50px;
   object-fit: cover;
 }
 
-/*
-img#image-carousel {
-  max-width: 70%;
-  margin: auto;
-  padding-top: 20px;
-}
-*/
-
 h1 {
   color: Black;
-  padding-top: 10px;
   text-align: center;
-  margin: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+h5 {
+    text-align: center;
 }
 
 hr {
-  color: white;
-  border: dotted;
-  max-width: 50%;
+  color: black;
+  border: solid;
+  width: 80%;
+}
+
+img.top-images {
+  width: 200px;
+  border-radius: 80%;
+}
+
+p.card-text{
+  text-align: center;
 }
