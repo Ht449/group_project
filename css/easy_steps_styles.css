@@ -27,39 +27,11 @@ h1 {
   color: Black;
   padding-top: 10px;
   text-align: center;
+  margin: 20px;
 }
 
 hr {
   color: white;
   border: dotted;
   max-width: 50%;
-}
-
-div#keep-in-touch{
-  text-align: center;
-  border-style: solid;
-  border-width: medium;
-  border-color: black;
-  padding: 50px;
-  background-color: rgb(121,255,139);
-  margin: 50px;
-
-}
-
-div.main-body{
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-h5 {
-  text-align: center;
-}
-
-.carousel-item {
-    height: 500px;
-}
-
-.carousel-item img{
-    height: 500px;
-    object-fit: cover;
 }
