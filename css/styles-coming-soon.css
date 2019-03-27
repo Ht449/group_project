@@ -11,3 +11,8 @@ div#coming-soon {
 img#bottom-image{
   width: 100%;
 }
+
+.logo img {
+  height: 50px;
+  object-fit: cover;
+}
