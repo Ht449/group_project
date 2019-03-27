@@ -15,14 +15,15 @@ body {
   object-fit: cover;
 }
 
-
+/*
 img#image-carousel {
   max-width: 70%;
   margin: auto;
   padding-top: 20px;
 }
+*/
 
-h1{
+h1 {
   color: Black;
   padding-top: 10px;
   text-align: center;
@@ -45,9 +46,9 @@ div#keep-in-touch{
 
 }
 
-h5{
+h5 {
   text-align: center;
-
+}
 
 .carousel-item {
     height: 500px;
