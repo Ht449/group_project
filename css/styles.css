@@ -1,7 +1,6 @@
 body {
   padding-top: 5rem;
   background-color: rgb(224,255,251);
-  margin: 50px;
 }
 
 /*
@@ -17,19 +16,10 @@ body {
 }
 
 
-div#top-locations {
-  padding: 10px;
-  colour: white;
-}
-
 img#image-carousel {
   max-width: 70%;
   margin: auto;
   padding-top: 20px;
-}
-
-div#quick-links{
-  text-align: center;
 }
 
 h1{
@@ -50,7 +40,8 @@ div#keep-in-touch{
   border-width: medium;
   border-color: black;
   padding: 50px;
-  background-color: rgb(121,255,139)
+  background-color: rgb(121,255,139);
+  margin: 50px;
 
 }
 
@@ -58,11 +49,15 @@ h5{
   text-align: center;
 
 
-.carousel-item{
+.carousel-item {
     height: 500px;
 }
 
 .carousel-item img{
     height: 500px;
     object-fit: cover;
+}
+
+div#middle-section{
+  margin: 50px;
 }
