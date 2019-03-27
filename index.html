@@ -24,24 +24,39 @@
 
   <body>
   <!-- Navbar Bootstap -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
 
-    <nav class="navbar navbar-toggler navbar-primary fixed-top bg-light">
-      <a href=index.html class="navbar-brand">Home</a>  <!-- Creates home button hyperlink -->
+    <div class="logo">
+      <a href=index.html class="navbar-brand">
+        <img src='Images/mountains.jpg' alt=""> <!-- Creates  Image in Navbar, will need resizing -->
+      </a>
+     <a href=index.html class="navbar-brand">Snowsport Central</a>
+    </div>
 
-      <a href=coming_soon.html class="navbar-brand">About</a>  <!-- Creates  button hyperlink -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="logo">
-       <a href=index.html class="navbar-brand">Website Name</a>
-       <a href=index.html class="navbar-brand">
-         <img src='Images/mountains.jpg' alt=""> <!-- Creates  Image in Navbar, will need resizing -->
-       </a>
-     </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="coming_soon.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="4_Easy_Steps.html">4 Easy Steps</a>
+        </li>
+      </ul>
+    </div>
 
-      <form class="form-inline">
-        <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Search</button>
-      </form>
-    </nav>
+    <form class="form-inline">
+      <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Search</button>
+    </form>
+  </nav>
+
 
   <div class="main-body">
     <!-- Carousel Bootstap -->
@@ -203,7 +218,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-  </div>  
+  </div>
 
     <!-- Bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
