@@ -37,9 +37,20 @@ hr {
 img.top-images {
   width: 200px;
   border-radius: 80%;
+  margin-bottom: 20px
 }
 
 p.card-text{
   text-align: center;
   font-size: 10px;
+}
+
+img.bottom-images {
+  width: 200px;
+  border-radius: 80%;
+  margin-top: 50px
+}
+
+.stage-4{
+  text-align: center;
 }
