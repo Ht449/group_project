@@ -16,3 +16,22 @@ img#bottom-image{
   height: 50px;
   object-fit: cover;
 }
+
+.social-image{
+  width: 30px;
+  height: 30px;
+}
+
+#social-media{
+  text-align: right;
+}
+
+hr{
+  border: dotted;
+  color: black;
+  width: 80%;
+}
+
+.contact{
+  text-align: left;
+}

@@ -35,9 +35,9 @@ hr {
 }
 
 img.top-images {
-  width: 200px;
+  width: 250px;
   border-radius: 80%;
-  margin-bottom: 20px
+  margin-top: 50px
 }
 
 p.card-text{
@@ -46,11 +46,29 @@ p.card-text{
 }
 
 img.bottom-images {
-  width: 200px;
+  width: 250px;
   border-radius: 80%;
   margin-top: 50px
 }
 
 .stage-4{
   text-align: center;
+}
+
+.social-image{
+  width: 30px;
+  height: 30px;
+}
+
+#social-media{
+  text-align: right;
+}
+
+.social-media{
+  border: dotted;
+  color: black;
+}
+
+.contact{
+  text-align: left;
 }
