@@ -19,6 +19,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/easy_steps_styles.css" rel="stylesheet" text="text/css">
+
+    <!-- JQuery script -->
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   </head>
 
 
@@ -61,54 +67,61 @@
     <h1> 4 Easy Steps to Getting Started </h1>
 
     <!-- Step 1 -->
-    <h2> Step 1: Choose Your Sport </h2>
-
-    <div class="row">
-      <div class="col-sm-3"> <!-- Column 2 (image) Starts -->
-        <img class="top-images" src="Images/skiing.png">
-        <br>
-      </div>
-      <div class="col-sm-9"> <!-- Column 1 (text) Starts -->
-        <h3> Skiing </h3>
-        <p> Skiing involves riding along the snow on two skis, one strapped to each leg.
-        There are many different types of skiing, the most popular is recreational Alpine skiing where participants
-        ride to the top of the mountain to ski down to the bottom.</p>
-        <p>Types of skiing: <a href="https://en.wikipedia.org/wiki/Alpine_skiing">Alpine</a>,
-          <a href="https://en.wikipedia.org/wiki/Downhill_">Downhill</a>,
-          <a href="https://en.wikipedia.org/wiki/Cross-country_skiing">Cross-country</a>,
-          <a href="https://en.wikipedia.org/wiki/Backcountry_skiing">Back-country</a>,
-          <a href="https://en.wikipedia.org/wiki/Ski_jumping">Ski Jumping</a>,
-          <a href="https://en.wikipedia.org/wiki/Giant_slalom">Giant Slalom</a>,
-          <a href="https://en.wikipedia.org/wiki/Heliskiing">Heliskiing</a></p>
-          <p>All skiing types: <a href="https://en.wikipedia.org/wiki/Category:Types_of_skiing">Click here</a></p>
-        <br>
-      </div>
+    <div>
+      <h2> Step 1: Choose Your Sport </h2>
     </div>
-    <div class="row">
-      <div class="col-sm-3"> <!-- Column 2 (image) Starts -->
-        <img class="top-images" src="Images/snowboarding.png">
+
+    <div class="step">
+      <div class="row">
+        <div class="col-sm-3"> <!-- Column 2 (image) Starts -->
+          <img class="top-images" src="Images/skiing.png">
+          <br>
+        </div>
+        <div class="col-sm-9"> <!-- Column 1 (text) Starts -->
+          <h3> Skiing </h3>
+          <p> Skiing involves riding along the snow on two skis, one strapped to each leg.
+          There are many different types of skiing, the most popular is recreational Alpine skiing where participants
+          ride to the top of the mountain to ski down to the bottom.</p>
+          <p>Types of skiing: <a href="https://en.wikipedia.org/wiki/Alpine_skiing">Alpine</a>,
+            <a href="https://en.wikipedia.org/wiki/Downhill_">Downhill</a>,
+            <a href="https://en.wikipedia.org/wiki/Cross-country_skiing">Cross-country</a>,
+            <a href="https://en.wikipedia.org/wiki/Backcountry_skiing">Back-country</a>,
+            <a href="https://en.wikipedia.org/wiki/Ski_jumping">Ski Jumping</a>,
+            <a href="https://en.wikipedia.org/wiki/Giant_slalom">Giant Slalom</a>,
+            <a href="https://en.wikipedia.org/wiki/Heliskiing">Heliskiing</a></p>
+            <p>All skiing types: <a href="https://en.wikipedia.org/wiki/Category:Types_of_skiing">Click here</a></p>
+          <br>
+        </div>
       </div>
-      <div class="col-sm-9"> <!-- Column 1 (text) Starts -->
-        <h3> Snowboarding </h3>
-        <p> Snowboarding also invovles riding along the snow, however participants have both feet strapped to one
-          board, rather than two individual skis. It is very similar to other board sports such as skateboarding, wakeboarding and
-          surfing. As with skiing there are multiple types of snowboarding, the most popular being recreational Alpine snowboarding.</p>
-        <p>Types of snowboarding: <a href="https://en.wikipedia.org/wiki/Alpine_snowboarding">Alpine</a>,
-          <a href="https://en.wikipedia.org/wiki/Backcountry_snowboarding">Back Country</a>,
-          <a href="https://en.wikipedia.org/wiki/Big_air">Big Air</a>,
-          <a href="https://en.wikipedia.org/wiki/Freeriding">Slopestyle</a>,
-          <a href="https://en.wikipedia.org/wiki/Boardercross">Boardercross</a>,
-          <a href="https://en.wikipedia.org/wiki/Boardercross">Half-pipe</a></p>
-        <p>All snowboarding types: <a href="https://en.wikipedia.org/wiki/Category:Snowboarding">Click here</a>
-        <br>
+      <div class="row">
+        <div class="col-sm-3"> <!-- Column 2 (image) Starts -->
+          <img class="top-images" src="Images/snowboarding.png">
+        </div>
+        <div class="col-sm-9"> <!-- Column 1 (text) Starts -->
+          <h3> Snowboarding </h3>
+          <p> Snowboarding also invovles riding along the snow, however participants have both feet strapped to one
+            board, rather than two individual skis. It is very similar to other board sports such as skateboarding, wakeboarding and
+            surfing. As with skiing there are multiple types of snowboarding, the most popular being recreational Alpine snowboarding.</p>
+          <p>Types of snowboarding: <a href="https://en.wikipedia.org/wiki/Alpine_snowboarding">Alpine</a>,
+            <a href="https://en.wikipedia.org/wiki/Backcountry_snowboarding">Back Country</a>,
+            <a href="https://en.wikipedia.org/wiki/Big_air">Big Air</a>,
+            <a href="https://en.wikipedia.org/wiki/Freeriding">Slopestyle</a>,
+            <a href="https://en.wikipedia.org/wiki/Boardercross">Boardercross</a>,
+            <a href="https://en.wikipedia.org/wiki/Boardercross">Half-pipe</a></p>
+          <p>All snowboarding types: <a href="https://en.wikipedia.org/wiki/Category:Snowboarding">Click here</a>
+          <br>
+        </div>
       </div>
     </div>
     <hr>
     <br>
 
     <!-- Step 2 -->
-    <div>
+    <div class="step">
       <h2> Step 2: Essential Equipment </h2>
+    </div>
+
+    <div class="step">
       <!-- Boostrap card deck -->
       <div class="card-deck">
         <div class="card">
@@ -165,8 +178,11 @@
     <br>
     <hr>
     <!-- Step 3 -->
-    <div>
+    <div class="step">
       <h2> Step 3: Find a Location </h2>
+    </div>
+
+    <div class="step">
       <div class="row">
         <div class="col-sm-9"> <!-- Column 1 (text) Starts -->
           <h3> Dry Ski Slopes </h3>
@@ -227,11 +243,14 @@
       <hr>
       <br>
     </div>
+
     <!-- Step 4 -->
-    <div>
+    <div class="step">
       <h2> Step 4: Get Out and Get Invovled </h2>
+    </div>
+    <div class="step">
       <h3 class="stage-4">All that is left to do is get out there and get going.</h3>
-      <p class="stage-4">Either book some lesson, watch youtube videos or simply give it a go.</p>
+      <p class="stage-4">Either book some lessons, watch YouTube videos or simply give it a go.</p>
       <p class="stage-4">Whatever you prefer just get on those slopes and give it a try!</p>
     </div>
 
@@ -252,6 +271,9 @@
         <a href="coming_soon.html" class="contact">Contact Us</a>
       </div>
     </div>
+
+    <!-- Javascript -->
+    <script src="js/scripts.js"></script>
   </body>
 
 </html>

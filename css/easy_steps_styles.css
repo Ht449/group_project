@@ -72,3 +72,8 @@ img.bottom-images {
 .contact{
   text-align: left;
 }
+
+.step
+{
+    opacity:0;
+}
