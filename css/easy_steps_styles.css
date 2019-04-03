@@ -2,6 +2,7 @@ body {
   padding-top: 2rem;
   background-color: rgb(190,190,190);
   margin: 80px;
+  font-family: courier ;
 }
 
 .logo img {
@@ -76,4 +77,8 @@ img.bottom-images {
 .step
 {
     opacity:0;
+}
+
+p.card-text {
+  font-size: 12px;
 }
