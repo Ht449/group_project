@@ -42,7 +42,7 @@ div#keep-in-touch{
   border-width: medium;
   border-color: black;
   padding: 50px;
-  background-color: rgb(159,188,234);
+  background-color: rgb(209, 223, 249);
   margin: 50px;
 
 }
@@ -80,4 +80,8 @@ h5.tip {
 
 .contact{
   text-align: left;
+}
+
+a {
+  color: rgb(80,80,80);
 }
