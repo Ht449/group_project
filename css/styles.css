@@ -1,6 +1,6 @@
 body {
   padding-top: 5rem;
-  background-color: rgb(224,255,251);
+  background-color: rgb(190,190,190);
 }
 
 /*
@@ -41,9 +41,25 @@ div#keep-in-touch{
   border-width: medium;
   border-color: black;
   padding: 50px;
-  background-color: rgb(159,188,234);
+  background-color: rgb(220,220,220);
   margin: 50px;
 
+}
+
+div#quick-links {
+  background-color: rgb(220,220,220);
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+a {
+  color: rgb(80,80,80)
+}
+
+div.card {
+  background-color: rgb(220,220,220)
+  color: rgb(0,0,0)
 }
 
 div.main-body{
