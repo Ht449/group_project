@@ -55,6 +55,10 @@ h5 {
   text-align: center;
 }
 
+h5.tip {
+  text-align: left;
+}
+
 .carousel-item {
     height: 500px;
 }
