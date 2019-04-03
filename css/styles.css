@@ -1,7 +1,6 @@
 body {
   padding-top: 5rem;
-  background-color: rgb(224,255,251);
-  font-family: courier;
+  background-color: rgb(190,190,190);
 }
 
 /*
@@ -54,10 +53,6 @@ div.main-body{
 
 h5 {
   text-align: center;
-}
-
-h5.tip {
-  text-align: left;
 }
 
 .carousel-item {
